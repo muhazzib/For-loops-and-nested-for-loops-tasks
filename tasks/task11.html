@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+                var array=[24,53,78,91,12];
+                var largest=0;
+                var smallest=100;
+                for(var i=0;i<array.length;i++){
+                   
+                         if(array[i]<smallest){
+                                        smallest=array[i];
+                    }
+                    }
+                 for(var i=0;i<array.length;i++){
+                        if(array[i]>largest){
+                                        largest=array[i]
+                     }
+             }
+     
+                                    document.write("The largest number is "+largest+"<br>");
+                                    document.write("The smallest number is "+smallest);
+                
+    </script>
+</body>
+</html>
